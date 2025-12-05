@@ -1,0 +1,8 @@
+accessWidener v2 named
+
+# Access wideners for fishing hook and player entity
+accessible class net/minecraft/entity/projectile/FishingBobberEntity
+
+# Access to sound system for audio detection
+accessible class net/minecraft/client/sound/SoundSystem
+accessible method net/minecraft/client/sound/SoundSystem play (Lnet/minecraft/client/sound/SoundInstance;)V

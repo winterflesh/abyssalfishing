@@ -1,0 +1,10 @@
+﻿{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.abyssalfishing.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["MixinFishingHook", "MixinMinecraftClient", "MixinSoundSystem"],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

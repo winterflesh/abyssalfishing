@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "abyssalfishing",
+  "version": "1.0.0",
+  "name": "AbyssalFishing",
+  "description": "Streamlined Hypixel SkyBlock fishing mod with sea creature killing and anti-AFK features.",
+  "authors": [
+    "AbyssalDev"
+  ],
+  "contact": {
+    "homepage": "https://github.com/abyssaldev/abyssalfishing",
+    "sources": "https://github.com/abyssaldev/abyssalfishing"
+  },
+  "license": "MIT",
+  "icon": "assets/abyssalfishing/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.abyssalfishing.AbyssalFishing"
+    ],
+    "modmenu": [
+      "com.abyssalfishing.config.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "abyssalfishing.mixins.json"
+  ],
+  "accessWidener": "abyssalfishing.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.16.7",
+    "fabric-api": "*",
+    "minecraft": "~1.21.5",
+    "java": ">=21"
+  },
+  "suggests": {
+    "modmenu": "*",
+    "cloth-config": "*"
+  }
+}

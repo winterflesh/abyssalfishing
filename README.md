@@ -1,0 +1,2 @@
+# abyssalfishing
+fishing bot for fabric 1.21.5
